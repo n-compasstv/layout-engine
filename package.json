@@ -1,0 +1,25 @@
+{
+    "name": "layout-engine",
+    "version": "1.0.0",
+    "description": "A lightweight layout engine built with HTML, CSS, and JS, bundled into a single HTML file using Vite.",
+    "author": "Your Name or Team",
+    "license": "MIT",
+    "main": "index.js",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "keywords": [
+        "layout",
+        "engine",
+        "vite",
+        "singlefile",
+        "html",
+        "canvas"
+    ],
+    "devDependencies": {
+        "vite": "^7.0.3",
+        "vite-plugin-singlefile": "^2.3.0"
+    }
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>NTV360 | Layout Engine</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Smooch+Sans:wght@100..900&display=swap"
+            rel="stylesheet" />
+        <link rel="stylesheet" href="/css/style.css" />
+    </head>
+    <body>
+        <div class="render-area" id="renderArea">
+            <div class="render-content" id="renderContent">
+                <div class="loading">
+                    <div class="loading-container">
+                        <div class="spinner text-center"></div>
+                        <div class="loading-text text-center">Loading elements...</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Debug UI -->
+        <div class="debug-trigger" id="debugTrigger"></div>
+        <button class="debug-button" id="debugButton">🐛 Debug</button>
+        <div class="debug-panel" id="debugPanel">
+            <div class="debug-header">
+                <div class="debug-title">Element Debug Data</div>
+                <button class="close-button" id="closeDebug">✕</button>
+            </div>
+            <div class="debug-content" id="debugContent">
+                <!-- Element data will be populated here -->
+            </div>
+        </div>
+
+        <script type="module" src="/js/main.js"></script>
+    </body>
+</html>
